@@ -1,0 +1,11 @@
+{
+  "name": "owert",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "node server/app.js"
+  },
+  "repository": "git@github.com:RickyC0626/owert.git",
+  "author": "Ricky Chon <rickychon99@gmail.com>",
+  "license": "MIT"
+}
