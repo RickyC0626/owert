@@ -9,7 +9,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/compound', (req, res) => {
-    res.send('Got a GET request at /compound');
+    res.send(`
+        <p>Available Routes for /compound</p>
+        <ul>
+            <li><b>/name/:compoundName</b> - search for a compound by name</li>
+            <li><b>/formula/:formula</b> - search for a compound by formula</li>
+        </ul>
+    `);
 });
 
 app.get('/compound/name/:compoundName', (req, res) => {
