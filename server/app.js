@@ -6,7 +6,7 @@ const NodeCache = require('node-cache');
 const unbakedDataCache = new NodeCache({ stdTTL: 3000, checkperiod: 1500 });
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 3001;
 
 app.get('/', (req, res) => {
     res.send('Hello World');
